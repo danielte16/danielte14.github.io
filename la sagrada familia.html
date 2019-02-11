@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/estilolasagradafamilia.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="#band" class="w3-bar-item w3-button w3-padding-large w3-hide-small">INFORMACION</a>
+    <a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small">UBICACION</a>
+    </div>
+    
+  </div>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="#band" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">BAND</a>
+  <a href="#tour" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">TOUR</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MERCH</a>
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+  <!-- Automatic Slideshow Images -->
+  <div class="mySlides w3-display-container w3-center">
+    <img src="imagenes/paginalasagradafamilia.jpg" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h1>La sagrada familia</h1>
+        
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="imagenes/paginalasagradafamilia2.jpg" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h1>La sagrada familia</h1>
+          
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="imagenes/paginalasagradafamilia3.jpg" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h1>La sagrada familia</h1>
+         
+    </div>
+  </div>
+
+  <!-- The Band Section -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
+    <h2 class="w3-wide">LA SAGRADA FAMILIA</h2>
+    <p class="w3-opacity"><i>Barcelona</i></p>
+    <p class="w3-justify">El Templo Expiatorio de la Sagrada Familia (en catalán, Temple Expiatori de la Sagrada Família),
+	conocido simplemente como la Sagrada Familia, es una basílica católica de Barcelona (España), diseñada por el arquitecto Antoni Gaudí.
+	Iniciada en 1882, todavía está en construcción. Es la obra maestra de Gaudí, y el máximo exponente de la arquitectura modernista catalana.
+	Es uno de los monumentos más visitados de España, junto al Museo del Prado y la Alhambra de Granada,​ y es la iglesia más visitada de Europa
+	tras la basílica de San Pedro del Vaticano.​ Cuando esté finalizada será la iglesia cristiana más alta del mundo.
+	La Sagrada Familia es un reflejo de la plenitud artística de Gaudí: trabajó en ella durante la mayor parte de su carrera profesional, pero
+	especialmente en los últimos años de su carrera, donde llegó a la culminación de su estilo naturalista, haciendo una síntesis de todas las 
+	soluciones y estilos probados hasta aquel entonces. Gaudí logró una perfecta armonía en la interrelación entre los elementos estructurales 
+	y los ornamentales, entre plástica y estética, entre función y forma, entre contenido y continente, logrando la integración de todas las 
+	artes en un todo estructurado y lógico.​</p>
+    
+	<a href="https://es.wikipedia.org/wiki/Templo_Expiatorio_de_la_Sagrada_Familia"><input type="button" value="informacion mas detallada" class="w3-button w3-light-grey w3-block"></a>
+  </div>
+
+  <!-- The Tour Section -->
+  <div class="w3-black" id="tour">
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+      <h2 class="w3-wide w3-center">ubicacion de la estructura</h2>
+      
+   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23258.722964880893!2d2.1643587662942845!3d41.40597050098572!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4a2db868f209b%3A0xdd709ffba518881c!2sLa+Sagrada+Familia%2C+Barcelona!5e0!3m2!1ses!2ses!4v1548059780766" width="1000" height="800" frameborder="0" style="border:0" allowfullscreen></iframe>
+   </div>
+  </div>
+
+  
+<!-- End Page Content -->
+</div>
+
+<!-- Image of location/map -->
+<img src="/w3images/map.jpg" class="w3-image w3-greyscale-min" style="width:100%">
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-snapchat w3-hover-opacity"></i>
+  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
+  <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+</footer>
+
+<script>
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 4000);    
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+</body>
+</html>
